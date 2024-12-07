@@ -12,7 +12,7 @@ def replay_attack():
     ]
 
   
-    target_topic = '/control_info_1'
+    target_topic = '/control_info_replay'
     pub = rospy.Publisher(target_topic, ControlInfo, queue_size=10)
     rate = rospy.Rate(1) 
   
